@@ -267,9 +267,7 @@ function jumpPlayer1() {
     }
 }
 
-/*
 function debugTeleport() {
     player1.x = mouseX;
     player1.y = mouseY;
 }
-*/

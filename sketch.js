@@ -51,9 +51,9 @@ function keyPressed() {
         if (keyCode === 82) {
             respawn();
         }
-        /*if (keyCode === 13) {
+        if (keyCode === 13) {
             debugTeleport();
-        }*/
+        }
     }
 }
 
