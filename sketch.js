@@ -72,7 +72,7 @@ function mousePressed() {
                 var scoreNum = parseInt(localStorage.scores) + 1;
                 localStorage.scores = "" + scoreNum;
                 localStorage.setItem("score" + scoreNum, "" + game.minutes + ":" + game.seconds + "." + game.timer);
-                for (var i = 0; i < scoreNum; i++) {
+                for (var i = 0; i < scoreNum + 1; i++) {
                     game.scores.push(localStorage.getItem("score" + i));
                 }
                 game.scores.sort();
