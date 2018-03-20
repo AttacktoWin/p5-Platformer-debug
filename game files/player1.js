@@ -116,9 +116,9 @@ function initPlayer1() {
             text("High Scores:", width/2, 100);
             var i = 0;
             var y = 200;
-            while(i < game.scores.length || i < 16) {
+            while(i < game.scores.length || i < 15) {
                 textAlign(LEFT);
-                text("" + i + ".", 700, y);
+                text("" + (i+1) + ".", 700, y);
                 if (typeof game.scores[i] == "string") {
                     text(game.scores[i], width/2, y);
                 } else {
