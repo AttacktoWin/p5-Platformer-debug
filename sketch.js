@@ -69,11 +69,11 @@ function mousePressed() {
                 if (typeof localStorage.scores != "string") {
                     localStorage.setItem("scores", "-1");
                 }
-                if (typeof localStorage.GLversion != "string") {
+                if (typeof localStorage.version != "string") {
                     localStorage.setItem("version", game.version);
                 }
-                if (localStorage.GLversion != game.version) {
-                    for (var i = 0; i < localStorage.GLscores; i++) {
+                if (localStorage.version != game.version) {
+                    for (var i = 0; i < localStorage.scores; i++) {
                         localStorage.removeItem("score" + i);
                     }
                     localStorage.setItem("scores", "-1");
