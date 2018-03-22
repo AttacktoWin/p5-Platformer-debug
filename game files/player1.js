@@ -16,6 +16,7 @@ function initPlayer1() {
     };
     game = {
         level: "start",
+        version: "1.0.0d",
         pause: false,
         platforms: [],
         spikes: [],
